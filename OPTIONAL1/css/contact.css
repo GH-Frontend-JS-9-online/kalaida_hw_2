@@ -1,0 +1,140 @@
+.contact {
+  width: 100%;
+  min-height: 700px;
+  background-image: url('../img/contact-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact_container {
+  width: 80%;
+  min-height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 41px;
+  font-weight: 400;
+  letter-spacing: 1.02px;
+  margin-top: 60px;
+  margin-bottom: 22px;
+}
+
+.contact-text {
+  color: #909090;
+  font-size: 15px;
+  letter-spacing: .38px;
+  margin-top: 0;
+  margin-bottom: 52px;
+}
+
+.contact_form {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.contact_form-inp {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 2px;
+  color: #999;
+  font-size: 15px;
+  letter-spacing: .38px;
+  padding-left: 20px;
+  margin-bottom: 22px;
+}
+
+.contact_form-inp::placeholder {
+  color: #999;
+}
+
+.contact_form-message {
+  width: 100%;
+  height: 160px;
+  background: transparent;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 2px;
+  color: #999;
+  font-size: 15px;
+  letter-spacing: .38px;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 22px;
+}
+
+.contact_form-message::placeholder {
+  color: #999;
+}
+
+.contact_form_bottom {
+  width: 100%;
+  min-height: 45px;
+  display: flex;
+}
+
+.contact_form_bottom_left {
+  width: 50%;
+  min-height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+}
+
+.contact_form-checkbox-label {
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.38px;
+  padding-left: 10px;
+}
+
+.contact_form_bottom_right {
+  width: 50%;
+  min-height: 45px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact_form-btn {
+  width: 140px;
+  height: 45px;
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid #15a4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: .45px;
+  transition: .2s;
+}
+
+.contact_form-btn:hover {
+  background: rgba(21,164,250, .3);
+}
+
+.contact_form-btn:active {
+  background: rgba(21,164,250, .2);
+}
+
+@media(min-width: 320px) and (max-width: 695px) {
+  .contact_form {
+    width: 100%;
+  }
+}

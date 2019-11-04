@@ -1,0 +1,133 @@
+.banner {
+  width: 100%;
+  min-height: 845px;
+  background-image: url('../img/banner-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_container {
+  width: 80%;
+  min-height: 845px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 120px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.banner-line {
+  width: 600px;
+  height: 2px;
+  border: none;
+  background: #15a4fa;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.banner-text {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: .5px;
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.banner-text span{
+  text-transform: uppercase;
+}
+
+.banner-btn {
+  width: 176px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: .45px;
+  transition: .2s;
+  margin-top: 0;
+  margin-bottom: 239px;
+}
+
+.banner-btn:hover {
+  background: rgba(21,164,250, .3);
+}
+
+.banner-btn:active {
+  background: rgba(21,164,250, .2);
+}
+
+.banner-anchor {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  transition: .2s;
+}
+
+.banner-anchor:hover {
+  color: rgba(255, 255, 255, .80);
+}
+
+.banner-anchor:active {
+  color: rgba(255, 255, 255, .90);
+}
+
+@media(min-width: 320px) and (max-width: 770px) {
+  .banner-title {
+    font-size: 100px;
+  }
+  .banner-line {
+    width: 100%;
+  }
+}
+
+@media(min-width: 405px) and (max-width: 566px) {
+  .banner-title {
+    font-size: 75px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 404px) {
+  .banner-title {
+    font-size: 55px;
+  }
+}
+@media(min-width: 320px) and (max-width: 460px) {
+  .banner-text {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 566px) {
+  .banner {
+    min-height: 750px;
+  }
+  .banner_container {
+    min-height: 750px;
+  }
+  .banner-btn {
+    width: 136px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 150px;
+  }
+  .banner-anchor {
+    margin-bottom: 0;
+  }
+}
